@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.tabandbnv.ui.home.HomeFragment"
+        android:label="头条"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.tabandbnv.ui.dashboard.DashboardFragment"
+        android:label="视频"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.tabandbnv.ui.notifications.NotificationsFragment"
+        android:label="发布"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_my"
+        android:name="com.example.tabandbnv.ui.myNavagation.myFragment"
+        android:label="我的"
+        tools:layout="@layout/my_fragment">
+        <action
+            android:id="@+id/action_navigation_my_to_createFragment"
+            app:destination="@id/createFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.tabandbnv.createFragment"
+        android:label="创作中心"
+        tools:layout="@layout/fragment_create" />
+
+</navigation>

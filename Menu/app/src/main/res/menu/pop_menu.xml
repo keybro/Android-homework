@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/color"
+        app:showAsAction="never"
+        android:title="颜色">
+        <menu>
+            <item
+                android:title="红色"
+                android:id="@+id/red"/>
+            <item
+                android:title="蓝色"
+                android:id="@+id/blue"/>
+            <item
+                android:title="绿色"
+                android:id="@+id/green"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/fontStyle"
+        app:showAsAction="never"
+        android:title="字体">
+        <menu>
+            <item
+                android:title="宋体"
+                android:id="@+id/song"/>
+            <item
+                android:title="楷体"
+                android:id="@+id/kai"/>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option1"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        android:title="选项1"/>
+
+    <item
+        android:id="@+id/option2"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        android:title="选项2"/>
+
+    <item
+        android:id="@+id/option3"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        android:title="选项3"/>
+
+    <item
+        android:id="@+id/option4"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        android:title="选项4"/>
+
+    <item
+        android:id="@+id/option5"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        android:title="选项5"/>
+
+    <item
+        android:id="@+id/option6"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        android:title="选项6"/>
+
+    <item
+        android:id="@+id/option7"
+        app:showAsAction="never"
+        android:icon="@mipmap/ic_launcher"
+        android:title="选项7"/>
+
+
+
+</menu>
